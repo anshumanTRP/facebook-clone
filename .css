@@ -1,0 +1,148 @@
+.main {
+  margin-left: auto;
+  margin-right: auto;
+}
+.one {
+  border: 1px solid black;
+  height: 235px;
+  min-height: fit-content;
+  background-color: rgb(4, 4, 109);
+  width: 600px;
+  padding: auto;
+}
+.img1 {
+  width: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img2 {
+  margin-left: 450px;
+  width: 20px;
+  transform: rotate(20deg);
+}
+.img3 {
+  margin-left: 500px;
+  width: 20px;
+  margin-top: 20px;
+  transform: rotate(20deg);
+}
+.img4 {
+  width: 40px;
+  margin-left: 00px;
+}
+.div1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.two {
+  border: 1px solid black;
+  width: 600px;
+
+  height: 500px;
+}
+.para {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+.anc {
+  text-decoration: none;
+  font-weight: bold;
+}
+.type {
+  width: 500px;
+  margin-bottom: 2px;
+  border: none white;
+  border-bottom: 2px solid black;
+  margin-top: 10px;
+  margin-left: 45px;
+  height: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.pass {
+  width: 500px;
+  margin-left: 45px;
+  margin-top: 40px;
+  padding-left: 20px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+.btn {
+  width: 525px;
+  margin-top: 30px;
+  margin-left: 45px;
+  height: 40px;
+  border: none;
+  background-color: blue;
+  color: white;
+}
+.anc2 {
+  font-size: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.three {
+  margin-top: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  height: 30px;
+}
+
+.para2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: 0.3rem;
+
+  text-align: center;
+}
+.para2::before,
+.para2::after {
+  content: "";
+  height: 0.1px;
+  background-color: black;
+  display: block;
+  padding: 1px;
+  padding-left: 45px;
+  width: 200px;
+}
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+
+  width: 525px;
+  font-family: sans-serif;
+  margin-left: 40px;
+}
+.button2 {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 530px;
+  height: 40px;
+  background-color: rgb(2, 74, 2);
+  color: white;
+  border: none;
+}
+body {
+  background-color: white;
+}
+.last {
+  display: flex;
+  justify-content: center;
+
+  width: 300px;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
